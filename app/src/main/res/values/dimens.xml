@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="detailsleft">140dp</dimen>
+    <dimen name="detailsright">10dp</dimen>
+    <dimen name="ingtextsize">30sp</dimen>
+    <dimen name="ingwidth">355dp</dimen>
+    <dimen name="ingheight">70dp</dimen>
+    <dimen name="ingsize">20sp</dimen>
+    <dimen name="instrsize">30sp</dimen>
+    <dimen name="instrucsize">20sp</dimen>
+    <dimen name="iconsize">50dp</dimen>
+    <dimen name="iconleft">100dp</dimen>
+    <dimen name="padding">50dp</dimen>
+    <dimen name="mainsize">40sp</dimen>
+    <dimen name="editpadding">20dp</dimen>
+    <dimen name="width">270dp</dimen>
+    <dimen name="details">25sp</dimen>
+    <dimen name="widgettext">24sp</dimen>
+    <dimen name="detailsize">35sp</dimen>
+    <dimen name="fav">1dp</dimen>
+    <dimen name="favheight">75dp</dimen>
+    <dimen name="top">15dp</dimen>
+    <dimen name="left">10dp</dimen>
+    <dimen name="minwidth">250dp</dimen>
+    <dimen name="minheight">180dp</dimen>
+    <dimen name="areapadding">8dp</dimen>
+</resources>

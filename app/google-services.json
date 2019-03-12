@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501151995842",
+    "firebase_url": "https://mealscapstone-f4434.firebaseio.com",
+    "project_id": "mealscapstone-f4434",
+    "storage_bucket": "mealscapstone-f4434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501151995842:android:b24eb65a6552ad7f",
+        "android_client_info": {
+          "package_name": "com.example.vaishu.mealscapstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501151995842-hu1cn9631kj3jpe9l4h9oh6kcpfer11s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaishu.mealscapstone",
+            "certificate_hash": "1706be11f64ff587c7dca33e2d6c9e133db6df25"
+          }
+        },
+        {
+          "client_id": "501151995842-qo7apqejgb79m0m4rjbme8mji3836qaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM4fBPhfXAnf4GrfGKT8CmU7kxJ5JgsYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501151995842-qo7apqejgb79m0m4rjbme8mji3836qaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vaishu.mealscapstone.IngredientsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INGREDIENTS"
+        android:textSize="@dimen/ingtextsize"
+        android:gravity="center"
+        android:textColor="@color/red"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textSize="@dimen/ingsize"
+        android:background="@drawable/shape1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/textview1"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textSize="@dimen/ingsize"
+        android:background="@drawable/shape1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/textview2"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textSize="@dimen/ingsize"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/shape1"
+        android:id="@+id/textview3"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textSize="@dimen/ingsize"
+        android:background="@drawable/shape1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/textview4"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ingsize"
+        android:gravity="center"
+        android:background="@drawable/shape1"
+        android:id="@+id/textview5"/>
+    <TextView
+        android:layout_width="@dimen/ingwidth"
+        android:layout_height="@dimen/ingheight"
+        android:textSize="@dimen/ingsize"
+        android:background="@drawable/shape1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:id="@+id/textview6"/>
+
+
+</LinearLayout>
+</ScrollView>

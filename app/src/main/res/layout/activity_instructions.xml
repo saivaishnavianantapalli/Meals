@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vaishu.mealscapstone.InstructionsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/INSTRUCTIONS"
+        android:gravity="center"
+        android:textSize="@dimen/instrsize"
+        android:textColor="@color/darkblue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:textSize="@dimen/instrucsize"
+        android:textColor="@color/darkpink"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/links"
+            android:onClick="link"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="@string/source"
+            android:onClick="source"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/feedbacks"
+        android:onClick="review"/>
+
+    <com.like.LikeButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon_type="Star"
+        app:icon_size="@dimen/iconsize"
+        android:id="@+id/like"
+        android:layout_marginLeft="@dimen/iconleft">
+    </com.like.LikeButton>/>
+</LinearLayout>
+</ScrollView>
